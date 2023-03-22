@@ -4,7 +4,7 @@ Welcome! Thank you for visiting the weather-dash project repository.
 
 If you're an avid traveller and you want to be prepared for the weather conditions at your next US destination, this app is for you!
 
-[Link to the weather-dash app]()
+[Link to the weather-dash app](https://weather-dashboard-b052.onrender.com/)
 
 To learn more about the app, you can jump to one of the sections below or keep scrolling.
 
@@ -24,8 +24,6 @@ Being unprepared for certain weather conditions can make or break a trip. Our mo
 Click [here](https://github.com/UBC-MDS/citytemp/blob/main/docs/proposal.md) to read the initial motivation and purpose of this dashboard.
 
 ## Dashboard Preview and Usage
-
-<img src='img/demo.gif' width="1000" height="500">
 
 Our dashboard presents observed temperature data from the [weather_forcasts.csv](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-12-20/weather_forecasts.csv) in tidytuesday. It provides users with a single landing page which showcases visualizations of temperature data for various cities and states in the US.
 
