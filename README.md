@@ -1,4 +1,4 @@
-# citytemp
+# US Weather Dashboard
 
 Welcome! Thank you for visiting the weather-dash project repository.
 
@@ -9,11 +9,9 @@ If you're an avid traveller and you want to be prepared for the weather conditio
 To learn more about the app, you can jump to one of the sections below or keep scrolling.
 
 * [Purpose and Motivation](#purpose-and-motivation)
+* [Proposal](#proposal)
 * [Preview and Description](#dashboard-preview-and-description)
-* [Installation](#installation)
-* [Meet the Team](#meet-the-team)
 * [Contributing](#contributing)
-* [Support](#support)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
 
