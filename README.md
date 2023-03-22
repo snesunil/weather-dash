@@ -42,19 +42,13 @@ The user can also select two cities from the selected state from the drop downs 
 
 Feedback and suggestions are always welcome! 
 
-Please read [the contributing guidelines](https://github.com/UBC-MDS/citytemp/blob/main/CONTRIBUTING.md)
+Please read [the contributing guidelines](https://github.com/snesunil/weather-dash/blob/main/CONTRIBUTING.md)
 to get started.
-
-## Support
-
-If you run into trouble, please [check the issue
-list](https://github.com/UBC-MDS/citytemp/issues) to see
-if your problem has already been reported or to open new issues.
 
 ## Code of conduct
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation. Detailed descriptions
-of these points can be found in [`CODE_OF_CONDUCT.md`](https://github.com/UBC-MDS/citytemp/blob/main/CODE_OF_CONDUCT.md).
+of these points can be found in [`CODE_OF_CONDUCT.md`](https://github.com/snesunil/weather-dash/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 This Dashboard is licensed under the terms of the MIT license.
