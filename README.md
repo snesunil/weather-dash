@@ -57,4 +57,4 @@ In the interest of fostering an open and welcoming environment, we as contributo
 of these points can be found in [`CODE_OF_CONDUCT.md`](https://github.com/UBC-MDS/citytemp/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
-The citytemp Dashboard is licensed under the terms of the MIT license.
+This Dashboard is licensed under the terms of the MIT license.
