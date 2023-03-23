@@ -12,6 +12,7 @@ To learn more about the app, you can jump to one of the sections below or keep s
 * [Proposal](#proposal)
 * [Preview and Description](#dashboard-preview)
 * [Usage](#usage)
+* [References](#references)
 * [Contributing](#contributing)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
@@ -26,7 +27,7 @@ Click [here](https://github.com/UBC-MDS/citytemp/blob/main/docs/proposal.md) to 
 
 ## Dashboard Preview
 
-Our dashboard presents observed temperature data from the [weather_forcasts.csv](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-12-20/weather_forecasts.csv) in tidytuesday. It provides users with a single landing page which showcases visualizations of temperature data for various cities and states in the US.
+Our dashboard provides users with a single landing page which showcases visualizations of temperature data for various cities and states in the US.
 
 First step for the users would be to select the state of their interest (eg. TX)
 
@@ -65,6 +66,9 @@ conda activate weather-dash
 cd src
 python app.py
 ```
+## References
+
+Our dashboard presents observed temperature data from the [weather_forcasts.csv](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-12-20/weather_forecasts.csv) in tidytuesday.
 
 ## Contributing
 
