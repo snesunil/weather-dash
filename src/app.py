@@ -6,7 +6,6 @@ import dash_bootstrap_components as dbc
 
 # Load the weather dataset
 temp_df = pd.read_csv("../data/weather_pro.csv", parse_dates=True)
-# temp_df = temp_df.sample(n=50000, random_state=42).reset_index()
 
 # Define the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
@@ -51,7 +50,7 @@ app.layout = html.Div(
                                         {"label": state, "value": state}
                                         for state in temp_df["state"].unique()
                                     ],
-                                    value="NJ",  # temp_df["state"].iloc[0]
+                                    value="NJ",
                                 ),
                                 width=2,
                             ),
@@ -144,7 +143,7 @@ def update_bar_plot(state):
         y="month",
         orientation="h",
         title=f"",
-        text=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], #grp_df["month"].unique().tolist(),
+        text=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
         color="month",
     )
 
@@ -203,11 +202,9 @@ def update_city_options(selected_state):
 )
 def update_line_plot(city_1, city_2):
     city_df = temp_df[~temp_df["date"].str.contains("2022")]
-    # city_df = city_df.query(f"city == {city_1} or city == {city_2} and high_or_low == 'high'")
     city_df = city_df.query(
         "city == @city_1 or city == @city_2 and high_or_low == 'high'"
     )
-    # city_df = city_df.query(f"city == 'Abilene' or city == 'Austin' and high_or_low == 'high'")
     city_df = city_df.groupby(["month", "city"])["temp_c"].mean().reset_index()
 
     fig = px.line(
@@ -220,7 +217,6 @@ def update_line_plot(city_1, city_2):
     
     fig.update_traces(line=dict(width=7))
 
-    # fig.update_traces(mode='lines')
     fig.update_layout(showlegend=True,
         yaxis_title="Temperature(°C)", xaxis_title="Months",
         plot_bgcolor="rgba(0,0,0,0)",
