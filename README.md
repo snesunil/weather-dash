@@ -53,7 +53,7 @@ git clone https://github.com/snesunil/weather-dash.git
 conda env create -f weather-dash.yaml
 ```
 
-Assuming that the environment was created successfully, you can now activate the environment as follows:
+3. Assuming that the environment was created successfully, you can now activate the environment as follows:
 
 ```bash
 conda activate weather-dash
