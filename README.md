@@ -10,7 +10,8 @@ To learn more about the app, you can jump to one of the sections below or keep s
 
 * [Purpose and Motivation](#purpose-and-motivation)
 * [Proposal](#proposal)
-* [Preview and Description](#dashboard-preview-and-usage)
+* [Preview and Description](#dashboard-preview)
+* [Usage](#usage)
 * [Contributing](#contributing)
 * [Code of Conduct](#code-of-conduct)
 * [License](#license)
@@ -23,7 +24,7 @@ Being unprepared for certain weather conditions can make or break a trip. Our mo
 
 Click [here](https://github.com/UBC-MDS/citytemp/blob/main/docs/proposal.md) to read the initial motivation and purpose of this dashboard.
 
-## Dashboard Preview and Usage
+## Dashboard Preview
 
 Our dashboard presents observed temperature data from the [weather_forcasts.csv](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-12-20/weather_forecasts.csv) in tidytuesday. It provides users with a single landing page which showcases visualizations of temperature data for various cities and states in the US.
 
@@ -36,7 +37,36 @@ Based on the user selections, our app presents the following:
 
 The user also has a provision to select two cities from the drop downs available which belongs to the selected state. Based on this, the app also presents a line plot comparing the temperature trend over the months in selected cities. Using these plots, the travellers can understand the overall average temperature in the selected state, how the temperature is varying in the cities of the selected state and also compare the temperature trends for two cities to choose the month and destination in US for their next trip and plan accordingly.
 
-# Contributing
+## Usage
+
+To run the app locally, clone this repository and follow below instructions - 
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/snesunil/weather-dash.git
+```
+
+2. Navigate to the root of the repository and create the environment
+
+```bash
+conda env create -f weather-dash.yaml
+```
+
+Assuming that the environment was created successfully, you can now activate the environment as follows:
+
+```bash
+conda activate weather-dash
+```
+
+4. Navigate to the `src` folder and run `app.py` to render the dashboard locally.
+
+```bash
+cd src
+python app.py
+```
+
+## Contributing
 
 Feedback and suggestions are always welcome! 
 
