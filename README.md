@@ -35,8 +35,12 @@ Based on the user selections, our app presents the following:
 
   - A bar plot showing the average temperatures(°C) in the selected state for each month. 
   - A violin plot depicting the distribution of temperatures in the cities of the selected state.
+  
+![](img/img1.png)
 
 The user also has a provision to select two cities from the drop downs available which belongs to the selected state. Based on this, the app also presents a line plot comparing the temperature trend over the months in selected cities. Using these plots, the travellers can understand the overall average temperature in the selected state, how the temperature is varying in the cities of the selected state and also compare the temperature trends for two cities to choose the month and destination in US for their next trip and plan accordingly.
+
+![](img/img2.png)
 
 ## Usage
 
